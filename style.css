@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url("./image/bg-masthead.jpg");
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1 {
+  padding-top: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  padding-bottom: 10px;
+}
+header p {
+  font-style: italic;
+  padding-bottom: 20px;
+}
+header .click button {
+  padding: 15px;
+  background-color: #1d809f;
+  color: white;
+  border-radius: 10px;
+  border: 1px;
+}
+
+section {
+  text-align: center;
+  padding-bottom: 100px;
+}
+section h2 {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+section p {
+  padding-bottom: 20px;
+}
+section button {
+  padding: 15px;
+  background-color: rgb(80, 78, 78);
+  border: 1px;
+  border-radius: 5px;
+}
+
+.services {
+  background-color: #1d809f;
+  padding-top: 100px;
+  text-align: center;
+}
+.services .topic h3 {
+  color: rgb(224, 156, 9);
+  font-size: 15px;
+}
+.services h2 {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+.services .icons {
+  -moz-column-count: 4;
+       column-count: 4;
+  display: flex;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+.services .icon1 img {
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  align-content: center;
+}
+.services .icon1 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 80px;
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  align-content: center;
+  height: 80px;
+}
+.services .icon2 img {
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  align-content: center;
+}
+.services .icon2 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 80px;
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  align-content: center;
+  height: 80px;
+}
+.services .icon3 img {
+  display: flex;
+  width: 80px;
+  align-content: center;
+  justify-content: center;
+}
+.services .icon3 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 80px;
+  display: flex;
+  width: 80px;
+  align-content: center;
+  height: 80px;
+  justify-content: center;
+}
+.services .icon4 img {
+  display: flex;
+  width: 30px;
+  align-content: center;
+  justify-content: center;
+}
+.services .icon4 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 80px;
+  display: flex;
+  width: 80px;
+  align-content: center;
+  height: 80px;
+  justify-content: center;
+}
+.services .text {
+  -moz-column-count: 4;
+       column-count: 4;
+  display: flex;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 10px;
+}
+.services .para {
+  -moz-column-count: 4;
+       column-count: 4;
+  display: flex;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.services .para p {
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.services .para h3 {
+  color: white;
+}
+
+.website {
+  background-image: url("./image/bg-callout.jpg");
+  text-align: center;
+  height: 90vh;
+  background-size: cover;
+}
+.website .typo h3 {
+  font-size: 40px;
+  padding-top: 230px;
+  padding-bottom: 20px;
+}
+.website .click button {
+  background-color: #1d809f;
+  color: white;
+  padding: 15px;
+  border: 1px solid #1d809f;
+  border-radius: 15px;
+}
+
+.port {
+  padding-top: 50px;
+  text-align: center;
+}
+.port .por h3 {
+  color: rgb(224, 156, 9);
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.port .po {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.port .offers img {
+  width: 450px;
+}
+.port .offers {
+  display: flex;
+  -moz-column-count: 2;
+       column-count: 2;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+.port .header {
+  position: absolute;
+  left: 230px;
+  top: 2470px;
+}
+.port .header h3 {
+  color: white;
+  font-size: 15px;
+}
+.port .header p {
+  color: white;
+  font-size: 10px;
+  padding-top: 10px;
+}
+.port .head {
+  position: absolute;
+  right: 420px;
+  top: 2470px;
+}
+.port .head h3 {
+  color: white;
+  font-size: 15px;
+}
+.port .head p {
+  color: white;
+  font-size: 10px;
+  padding-top: 10px;
+}
+.port .hea {
+  position: absolute;
+  left: 230px;
+  top: 2790px;
+  color: white;
+}
+.port .hea h3 {
+  font-size: 15px;
+}
+.port .hea p {
+  font-size: 10px;
+}
+.port .ha {
+  position: absolute;
+  right: 420px;
+  top: 2790px;
+  color: white;
+}
+.port .ha h3 {
+  font-size: 15px;
+}
+.port .ha p {
+  font-size: 10px;
+}
+
+.select {
+  background-color: #1d809f;
+  height: 30vh;
+  text-align: center;
+}
+.select .here h2 {
+  padding-top: 60px;
+  color: white;
+  padding-bottom: 20px;
+}
+.select .th {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.select .me button {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(53, 51, 51);
+  border: 1px solid rgb(53, 51, 51);
+  border-radius: 10px;
+  color: white;
+}
+.select .dunno button {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.select .dunno {
+  padding-left: 20px;
+}
+
+.map {
+  background-image: url("./image/map.jpeg");
+  height: 60vh;
+  background-size: cover;
+}
+
+.footer .fin {
+  -moz-column-count: 3;
+       column-count: 3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 70px;
+}
+.footer .git {
+  background-color: #1d809f;
+  height: 70px;
+  width: 70px;
+  border-radius: 80px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.footer .git img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50px;
+}
+.footer .twt {
+  background-color: #1d809f;
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.footer .twt img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.footer .fac {
+  background-color: #1d809f;
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.footer .fac img {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .copy {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer .copy p {
+  font-size: 10px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.contain {
+  background-color: grey;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  display: flex;
+}
+.contain .nav {
+  background-color: white;
+  height: 2px;
+  width: 20px;
+  margin: 3px;
+}/*# sourceMappingURL=style.css.map */
