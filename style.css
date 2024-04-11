@@ -38,7 +38,7 @@ section {
   padding-bottom: 100px;
 }
 section h2 {
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 section p {
@@ -195,70 +195,27 @@ section button {
   font-size: 20px;
   padding-bottom: 40px;
 }
-.port .offers img {
-  width: 450px;
-}
 .port .offers {
   display: flex;
-  -moz-column-count: 2;
-       column-count: 2;
-  flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
+  align-content: center;
   justify-content: center;
-  padding-bottom: 90px;
+}
+.port .offer {
+  position: relative;
+  width: 35%;
+  margin-top: -5px;
+}
+.port .offer img {
+  width: 100%;
 }
 .port .header {
   position: absolute;
-  left: 230px;
-  top: 2470px;
-}
-.port .header h3 {
+  z-index: 5;
+  bottom: 40px;
+  left: 30px;
   color: white;
-  font-size: 15px;
-}
-.port .header p {
-  color: white;
-  font-size: 10px;
-  padding-top: 10px;
-}
-.port .head {
-  position: absolute;
-  right: 420px;
-  top: 2470px;
-}
-.port .head h3 {
-  color: white;
-  font-size: 15px;
-}
-.port .head p {
-  color: white;
-  font-size: 10px;
-  padding-top: 10px;
-}
-.port .hea {
-  position: absolute;
-  left: 230px;
-  top: 2790px;
-  color: white;
-}
-.port .hea h3 {
-  font-size: 15px;
-}
-.port .hea p {
-  font-size: 10px;
-}
-.port .ha {
-  position: absolute;
-  right: 420px;
-  top: 2790px;
-  color: white;
-}
-.port .ha h3 {
-  font-size: 15px;
-}
-.port .ha p {
-  font-size: 10px;
+  text-align: left;
 }
 
 .select {
@@ -313,39 +270,39 @@ section button {
   height: 70px;
   width: 70px;
   border-radius: 80px;
-  padding: 10px;
+  padding: 15px;
   margin-left: 20px;
 }
 .footer .git img {
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 50px;
+  width: 40px;
 }
 .footer .twt {
   background-color: #1d809f;
   height: 70px;
   width: 70px;
   border-radius: 100px;
-  padding: 10px;
+  padding: 15px;
   margin-left: 20px;
 }
 .footer .twt img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
+  width: 40px;
 }
 .footer .fac {
   background-color: #1d809f;
   height: 70px;
   width: 70px;
   border-radius: 100px;
-  padding: 10px;
+  padding: 15px;
   margin-left: 20px;
 }
 .footer .fac img {
-  width: 50px;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

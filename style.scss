@@ -11,8 +11,8 @@ header{
     .click button{padding: 15px;background-color: #1d809f; color: white; border-radius: 10px; border: 1px;}
 }
 section{
-    text-align: center; padding-bottom: 100px;
-    h2{padding-top: 100px; padding-bottom: 10px;}
+    text-align: center; padding-bottom: 100px; 
+    h2{padding-top: 30px; padding-bottom: 10px;}
     p{padding-bottom: 20px;}
     button{padding: 15px; background-color: rgb(80, 78, 78); border: 1px; border-radius: 5px;}
 }  
@@ -43,20 +43,12 @@ section{
     padding-top: 50px;  text-align:center;
         .por h3{color: rgb(224, 156, 9); font-size: 15px; padding-bottom: 5px;}
         .po{ font-size: 20px; padding-bottom: 40px;}
-        .offers img{width: 450px;}
-        .offers{display: flex;column-count: 2; flex-direction: row; flex-wrap: wrap; text-align: center; justify-content: center; padding-bottom: 90px;}
-        .header{position: absolute; left: 230px; top: 2470px;}
-        .header h3{color: white; font-size: 15px; }
-        .header p{color: white;font-size: 10px; padding-top: 10px;}
-        .head{position: absolute; right: 420px;  top: 2470px;}
-        .head h3{color: white;font-size: 15px;}
-        .head p{color: white;font-size: 10px; padding-top: 10px;}
-        .hea{position: absolute; left: 230px; top: 2790px; color: white;}
-        .hea h3{font-size: 15px;}
-        .hea p{font-size: 10px;}
-        .ha{position: absolute; right: 420px; top: 2790px; color: white;}
-        .ha h3{font-size: 15px;}
-        .ha p{font-size: 10px;}
+        .offers{display: flex; flex-wrap: wrap; align-content: center; justify-content: center;}
+        .offer{position: relative; width: 35%; margin-top: -5px;
+        img{width: 100%;}
+        }
+ .header{position: absolute; z-index: 5; bottom: 40px; left: 30px; color: white; text-align: left;}
+        
 }
 .select{
    background-color:#1d809f; height: 30vh; text-align: center;
@@ -71,12 +63,12 @@ section{
 }
 .footer{
     .fin{column-count: 3;  display: flex; justify-content: center; align-content: center; padding-top: 70px;}
-    .git{background-color: #1d809f; height: 70px; width: 70px; border-radius: 80px; padding: 10px; margin-left: 20px;}
-    .git img{ display: flex; justify-content: center; align-content: center; width: 50px;}
-    .twt{background-color: #1d809f; height: 70px; width: 70px; border-radius: 100px; padding: 10px; margin-left: 20px;}
-    .twt img{display: flex; justify-content: center; align-items: center; width: 50px; }
-    .fac{background-color: #1d809f; height: 70px; width: 70px; border-radius: 100px; padding: 10px; margin-left: 20px;}
-    .fac img{width: 50px; display: flex; justify-content: center; align-items: center;}
+    .git{background-color: #1d809f; height: 70px; width: 70px; border-radius: 80px; padding: 15px; margin-left: 20px;}
+    .git img{ display: flex; justify-content: center; align-content: center; width: 40px;}
+    .twt{background-color: #1d809f; height: 70px; width: 70px; border-radius: 100px; padding: 15px; margin-left: 20px;}
+    .twt img{display: flex; justify-content: center; align-items: center; width: 40px; }
+    .fac{background-color: #1d809f; height: 70px; width: 70px; border-radius: 100px; padding: 15px; margin-left: 20px;}
+    .fac img{width: 40px; display: flex; justify-content: center; align-items: center;}
     .copy{display: flex; justify-content: center; align-content: center;}
     .copy p{font-size: 10px; padding-top: 30px; padding-bottom: 50px;}
 } 
